@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: files
+data:
+  context.xml: {{ (.Files.Get "files/context.xml") .| quote }}
+  server.xml: {{ (.Files.Get "files/server.xml") .| quote }}

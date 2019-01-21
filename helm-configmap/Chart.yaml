@@ -1,0 +1,6 @@
+name: helm-configmap
+description: Configmap override configuration files
+version: 0.1.0
+maintainers:
+  - name: dheeraj_tripathi
+    email: example@example.com
